@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="SmartPole.View.LoginView">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="White">
+            <Image Source="smartcity.jpg" Aspect="AspectFill"></Image>
+            <StackLayout VerticalOptions="Center" Margin="35">
+                <Entry Placeholder="Email" Margin="0,25,0,0" Keyboard="Email"></Entry>
+                <Entry Placeholder="Senha" Margin="0,25,0,0" IsPassword="True"></Entry>
+                <Button x:Name="BtnLogin"
+                    Text="Acessar"
+                    BackgroundColor="PaleTurquoise"  
+                    Margin="40,60,40,0"
+                    HeightRequest="40"
+                    WidthRequest="40"
+                    BorderRadius="20"></Button>
+            </StackLayout>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
