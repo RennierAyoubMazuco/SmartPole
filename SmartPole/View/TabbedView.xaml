@@ -6,9 +6,10 @@
             xmlns:local="clr-namespace:SmartPole.View"
             mc:Ignorable="d"
             x:Class="SmartPole.View.TabbedView"
-            BarBackgroundColor="PaleTurquoise"
+            BarBackgroundColor="White"
             BackgroundColor="White"
-            SelectedTabColor="MediumTurquoise">
-    <local:GeralView Title="Visão Geral" IconImageSource="visao_geral.png"/>
-    <local:DetalhesView Title="Detalhe" IconImageSource="detalhe.png"/>
+            SelectedTabColor="DarkGray"
+            UnselectedTabColor="LightGray">
+    <local:DetalhesView Title="Postes" IconImageSource="detalhe.png"/>
+    <local:GeralView Title="Visão Geral" IconImageSource="visao_geral.png"/>    
 </TabbedPage>
