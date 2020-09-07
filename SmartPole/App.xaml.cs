@@ -1,4 +1,5 @@
-﻿using SmartPole.View;
+﻿using SmartPole.Model;
+using SmartPole.View;
 using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -16,6 +17,10 @@ namespace SmartPole
 
         protected override void OnStart()
         {
+            MessagingCenter.Subscribe<UsuarioModel>(this, "SucessoLogin", (usuario) =>
+              {
+                  MainPage = new TabbedView();
+              });
         }
 
         protected override void OnSleep()

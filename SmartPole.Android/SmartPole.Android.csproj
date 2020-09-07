@@ -92,10 +92,10 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\vizinhanca.png" />
+    <AndroidResource Include="Resources\drawable\visao_geral.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\poste_iluminacao.png" />
+    <AndroidResource Include="Resources\drawable\detalhe.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\smartcity.jpg" />

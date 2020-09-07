@@ -6,7 +6,7 @@ using System.Text;
 
 namespace SmartPole.ViewModel
 {
-    public abstract class BaseViewModel : INotifyPropertyChanged()
+    public abstract class BaseViewModel : INotifyPropertyChanged
     {
         public event PropertyChangedEventHandler PropertyChanged;
 
