@@ -21,6 +21,11 @@ namespace SmartPole
               {
                   MainPage = new TabbedView();
               });
+
+            MessagingCenter.Subscribe<String>(this, "Sobre", (msg) =>
+            {
+                MainPage = new SobreView();
+            });
         }
 
         protected override void OnSleep()

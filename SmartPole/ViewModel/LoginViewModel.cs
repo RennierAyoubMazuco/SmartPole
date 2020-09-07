@@ -48,8 +48,13 @@ namespace SmartPole.ViewModel
                 return !string.IsNullOrEmpty(Email)
                 && !string.IsNullOrEmpty(Senha);
             });
+            CmdSobre = new Command(() =>
+            {
+                MessagingCenter.Send<String>(String.Empty, "Sobre");
+            });
         }
         public ICommand CmdLogin { get; set; }
+        public ICommand CmdSobre { get; set; }
 
     }
 }

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="SmartPole.View.SobreView">
+    <ContentPage.Content>
+        <Frame BorderColor="LightGray" HorizontalOptions="Center" VerticalOptions="Center" Margin="15">
+            <StackLayout >
+                <Label Text="Bruno Akira - 081160051" FontSize="Title"></Label>
+                <Label Text="Rennier Ayoub - 081160052" FontSize="Title"></Label>
+                <Label Text="Victor Oldani - 081160045" FontSize="Title"></Label>
+                <Label Text="Matheus Vilar - 081160050" FontSize="Title"></Label>
+            </StackLayout>
+        </Frame>
+        
+    </ContentPage.Content>
+</ContentPage>

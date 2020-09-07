@@ -24,6 +24,15 @@
                     BorderRadius="20"
                     Command="{Binding CmdLogin}">
                 </Button>
+                <Button x:Name="BtnSobre"
+                    Text="Sobre"
+                    BackgroundColor="PaleTurquoise"  
+                    Margin="40,60,40,0"
+                    HeightRequest="40"
+                    WidthRequest="40"
+                    BorderRadius="20"
+                    Command="{Binding CmdSobre}">
+                </Button>
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>
