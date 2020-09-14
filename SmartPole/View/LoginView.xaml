@@ -5,7 +5,8 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:vm="clr-namespace:SmartPole.ViewModel"
              mc:Ignorable="d"
-             x:Class="SmartPole.View.LoginView">
+             x:Class="SmartPole.View.LoginView"
+             NavigationPage.HasNavigationBar="False">
     <ContentPage.BindingContext>
         <vm:LoginViewModel></vm:LoginViewModel>
     </ContentPage.BindingContext>
@@ -13,7 +14,7 @@
         <StackLayout BackgroundColor="White">
             <Image Source="smartcity.jpg" Aspect="AspectFill"></Image>
             <StackLayout VerticalOptions="Center" Margin="35">
-                <Entry Placeholder="Email" Text="{Binding Email}" Margin="0,25,0,0" Keyboard="Email"></Entry>
+                <Entry Placeholder="Email" Text="{Binding Login}" Margin="0,25,0,0"></Entry>
                 <Entry Placeholder="Senha" Text="{Binding Senha}" Margin="0,25,0,0" IsPassword="True"></Entry>
                 <Button x:Name="BtnLogin"
                     Text="Acessar"

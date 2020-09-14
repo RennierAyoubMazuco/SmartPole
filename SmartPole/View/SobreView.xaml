@@ -4,7 +4,8 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="SmartPole.View.SobreView">
+             x:Class="SmartPole.View.SobreView"
+             NavigationPage.HasNavigationBar="False" >
     <ContentPage.Content>
         <Frame BorderColor="LightGray" HorizontalOptions="Center" VerticalOptions="Center" Margin="15">
             <StackLayout >

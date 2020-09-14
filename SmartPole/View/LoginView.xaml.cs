@@ -17,5 +17,25 @@ namespace SmartPole.View
         {
             InitializeComponent();
         }
+
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+            MessagingCenter.Subscribe<String>(this, "Sobre", (msg) =>
+            {
+                Navigation.PushAsync(new SobreView());
+            });
+            MessagingCenter.Subscribe<String>(this, "FalhaLogin", (msg) =>
+            {
+                DisplayAlert("Erro ao efetuar login",msg,"Ok");
+            });
+        }
+
+        protected override void OnDisappearing()
+        {
+            base.OnDisappearing();
+            MessagingCenter.Unsubscribe<String>(this, "Sobre");
+            MessagingCenter.Unsubscribe<String>(this, "FalhaLogin");
+        }
     }
 }

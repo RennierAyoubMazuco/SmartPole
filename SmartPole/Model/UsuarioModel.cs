@@ -18,6 +18,12 @@ namespace SmartPole.Model
             get { return email; }
             set { email = value; }
         }
+        private string login;
+        public string Login
+        {
+            get { return login; }
+            set { login = value; }
+        }
         private string senha;
         public string Senha
         {
