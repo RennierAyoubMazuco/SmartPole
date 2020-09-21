@@ -14,7 +14,7 @@
         <StackLayout BackgroundColor="White">
             <Image Source="smartcity.jpg" Aspect="AspectFill"></Image>
             <StackLayout VerticalOptions="Center" Margin="35">
-                <Entry Placeholder="Email" Text="{Binding Login}" Margin="0,25,0,0"></Entry>
+                <Entry Placeholder="Usuário" Text="{Binding Login}" Margin="0,25,0,0"></Entry>
                 <Entry Placeholder="Senha" Text="{Binding Senha}" Margin="0,25,0,0" IsPassword="True"></Entry>
                 <Button x:Name="BtnLogin"
                     Text="Acessar"
