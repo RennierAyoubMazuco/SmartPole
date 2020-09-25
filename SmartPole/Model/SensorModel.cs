@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
+//Smartpole
 namespace SmartPole.Model
 {
     public class SensorModel
